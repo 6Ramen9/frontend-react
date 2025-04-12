@@ -77,15 +77,15 @@ function TableStudents({ etudiants, onUpdate, onDelete, min, max, avg }) {
                 <tfoot>
                     <tr>
                         <th colSpan="3">MOYENNE</th>
-                        <td colSpan="2">{avgGrade}</td>
+                        <td colSpan="2">{avg}</td>
                     </tr>
                     <tr>
                         <th colSpan="3">MINIMUM</th>
-                        <td colSpan="2">{minGrade}</td>
+                        <td colSpan="2">{min}</td>
                     </tr>
                     <tr>
                         <th colSpan="3">MAXIMUM</th>
-                        <td colSpan="2">{maxGrade}</td>
+                        <td colSpan="2">{max}</td>
                     </tr>
                 </tfoot>
             </table>
